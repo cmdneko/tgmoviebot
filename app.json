@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/josprojects/tgmoviebot",
-    "repository": "https://github.com/josprojects/tgmoviebot",
+    "website": "https://github.com/cmdneko/tgmoviebot",
+    "repository": "https://github.com/cmdneko/tgmoviebot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
