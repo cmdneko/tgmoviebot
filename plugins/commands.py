@@ -146,11 +146,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('support', url='https://t.me/Anime_Ocean'),
+                    InlineKeyboardButton('channel', url='https://t.me/Anime_Ocean')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Developer :', url=f'https://t.me/OhNeko')
                 ]
                 ]
             try:
@@ -245,7 +245,7 @@ async def start(client, message):
             return
         except:
             pass
-        return await message.reply('No such file exist.')
+        return await message.reply('Vsdk no such file exist.')
     files = files_[0]
     title = files.file_name
     size=get_size(files.file_size)
@@ -260,11 +260,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+            InlineKeyboardButton('support', url='https://t.me/Anime_chat_ocean'),
+            InlineKeyboardButton('channel', url='https://t.me/Anime_Ocean')
         ],
         [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('Developer: ', url=f'https://t.me/OhNeko')
         ]
         ]
     await client.send_cached_media(
